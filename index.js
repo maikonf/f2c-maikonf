@@ -5,6 +5,6 @@ module.exports = function(tempF){
 	let tempC = parseFloat(tempF)
 	tempC -= 32
 	tempC /= 1.8
-
+	
 	return tempC.toFixed(2)
 }
