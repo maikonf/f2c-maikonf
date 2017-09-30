@@ -5,7 +5,7 @@ const f2c = require('./index.js')
 const tempF = 20
 const tempC = f2c(tempF)
 
-if(tempC == -6.67){
+if(tempC === -6.67){
 	console.log('Test OK')
 	process.exit(0)
 }
