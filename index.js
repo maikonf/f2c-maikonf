@@ -1,3 +1,5 @@
+'use strict'
+
 module.exports = function(tempF){
 	if(typeof tempF === 'string'){
 		tempF = tempF.trim().replace(',', '.')
